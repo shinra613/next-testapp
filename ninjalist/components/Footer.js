@@ -1,6 +1,8 @@
+import styles from "../styles/Home.module.css"
+
 const Footer = () => {
-    return (<div>
-        <h2>Copy Right. 2022</h2>
+    return (<div className={styles.footer}>
+        <h3>Copy Right. 2022</h3>
     </div> );
 }
  
