@@ -2,7 +2,7 @@
 
 .content{
   width: 70%;
-  margin: 20px auto;
+  margin:  auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,10 +34,43 @@ align-items: center;
 }
 
 .mainContent{ 
-  height: 40%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
+
+.listTitle{
+  height: 10%;
+}
+.listContent{
+  width: 70%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: scroll;
+  margin-bottom: 40px;
+
+}
+
+
+.listCard{
+
+ display: flex;
+ align-items: center;
+ padding: 20px 0 ;
+  padding-left: 10px;
+  height: 200px;
+  
+margin-top: 50px;
+
+background-color: #272626;
+border-radius: .2rem;
+}
+
+.listCard:hover {
+  border-left: 5px solid white;
+}
