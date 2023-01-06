@@ -100,8 +100,17 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+p{text-align: center;}
+
+button{
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: .5rem;
+  font-weight: 500;
+}
+
+button:active{
+  position: relative;
+  top:10px;
 }
