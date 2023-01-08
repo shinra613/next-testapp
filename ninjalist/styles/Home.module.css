@@ -48,8 +48,7 @@ align-items: center;
 .listContent{
   width: 70%;
   height: 400px;
-  display: flex;
-  flex-direction: column;
+
   justify-content: space-around;
   overflow: scroll;
   margin-bottom: 40px;
@@ -61,9 +60,9 @@ align-items: center;
 
  display: flex;
  align-items: center;
- padding: 20px 0 ;
+ padding: 5px 0 ;
   padding-left: 10px;
-  height: 200px;
+  height: 100px;
   
 margin-top: 50px;
 
@@ -73,4 +72,11 @@ border-radius: .2rem;
 
 .listCard:hover {
   border-left: 5px solid white;
+}
+
+.detailContent{
+
+display: flex;
+flex-direction: column;
+text-align: center;
 }
